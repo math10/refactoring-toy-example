@@ -7,6 +7,12 @@ public class Dog {
 	public int magicNumber = 17;
 
 	public int getAge() {
+		boolean flag;
+		if(this.age%2 == 0) {
+			flag = true;
+		} else {
+			flag = false;
+		}
 		return this.age;
 	}
 
